@@ -14,7 +14,7 @@ You have to take the SSH key from your github account and save it into your comp
 
 ## Configure your profile through Git CMD
 
-First, you have to configure the gitconfig file in order to use your Github account.
+First, you have to configure the gitconfig file (/etc/gitconfig) in order to use your Github account.
 You have to fill your Github username & email: 
 
 >git config --global user.name "your_username"
