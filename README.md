@@ -59,3 +59,15 @@ In my case, I work from 3 different machines (1 Mac & 2 Windows). Also, I have m
 For example, during the week I am working on one of my 2 Windows machine.
 Then, during the week-end, I need to work on my Mac. So, the question is, how will I gather all the modifications I made during the week-end ?
 Simply by doing:
+
+## Undo git add
+
+To undo "git add" before a commit, it's possible to unstage changes:
+
+- For a single file:
+
+>git reset <file> 
+
+- To unstage all changes: 
+
+>git reset
