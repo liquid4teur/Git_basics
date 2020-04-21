@@ -71,3 +71,11 @@ To undo "git add" before a commit, it's possible to unstage changes:
 - To unstage all changes: 
 
 >git reset
+
+# Other useful command
+
+## Delete a folder (with files inside)
+
+- To force removing of a folder (containing files):
+
+>rm -rf
